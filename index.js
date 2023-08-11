@@ -1,6 +1,8 @@
 import express from "express";
 import cors from "cors";
-import crudRoutes from './routes/crud.js'
+import crudRoutes from './routes/crudRoutes.js'
+
+
 
 const app = express()
 
